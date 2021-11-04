@@ -1,0 +1,35 @@
+:root{
+    --branding-color: #00A19D;
+    --secondary-color:#FFF8E5;
+    --accent-color: #ffb344;
+    --heading-font-family: "Playfair", serif;
+    --default-font-family: "Nunito", 
+
+}
+h1{
+    font-family: 'Playfair', serif;
+    font-weight: bold;
+    font-size: 96px;
+     color: var(--branding-color);
+}
+h2{
+    font-family: 'Nunito',sans-serif;
+}
+.hero p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight:bold;
+}
+.hero{
+    text-align: center;
+    background: var(--secondary-color);
+    padding: 160px 20px;
+
+}
+.btn-branding{
+    font-size: 18px;
+    border-radius: 4px;
+    line-height: 27px;
+    padding: 15px 30px;
+    background: var(--accent-color);
+}
