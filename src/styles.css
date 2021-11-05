@@ -13,12 +13,33 @@ h1{
      color: var(--branding-color);
 }
 h2{
+    font-family: 'Playfair',serif;
+    font-size: 64px;
+}
+h3{
+    font-family: 'Nunito', serif;
+    font-size: 30px;
+
+}
+p{
+    font-size: 16px;
     font-family: 'Nunito',sans-serif;
+    line-height: 30px;
+
+}
+img{
+    max-width: 450px;
+    border-radius: 4px;
+    align-items: center;
 }
 .hero p{
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-weight:bold;
+}
+.hero h2{
+    font-family: 'Nunito', serif;
+    font-size: 30px;
 }
 .hero{
     text-align: center;
@@ -32,4 +53,20 @@ h2{
     line-height: 27px;
     padding: 15px 30px;
     background: var(--accent-color);
+}
+.project-description{
+    padding: 30px 60px;
+}
+@media(max-width: 960px){
+    .project-description{
+        padding:0px;
+        text-align:center;
+
+    }
+    h1{
+        font-size:60px;
+    }
+    .btn-branding{
+        margin: 0px;
+    }
 }
