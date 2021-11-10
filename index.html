@@ -32,7 +32,9 @@
   
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Christina Izquierdo</a>
+    <a class="navbar-brand" href="#">
+      <img src="images/circlelogo.png" alt="" width="50" height="50>
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -66,6 +68,8 @@
             </div>
           </div>
         </div>
+        <br/>
+        <hr>
     </div>
     <div id="projects">
         <h3 class="text-center m-5">Featured Projects</h3>
@@ -97,15 +101,36 @@
         </div>
     </div>
     </div>
+    </br>
+    <hr>
     <div class="container text-center contact-page" id="contact-page">
       <h2 class="m-5"> Let's get in touch! </h2>
-      <h3>Email</h3>
-      <p> 
-        <a href="mailto:christinaizquierdo@icloud.com" target="_blank"> christinaizquierdo@icloud.com
-        </a></p>
-      <h3>Instagram</h3>
-      <p> <a href="https://www.instagram.com/codewithizzy/" target="_blank"> @codewithizzy</a></p>
+      <div class="container">
+        <div class="row">
+           <div class="col">
+            <p>I would love to get to know you and work together. If you have any questions please feel free to reach out!</p>
+             <form id="contact-form">
+               <input name="name" type="text" placeholder="ex: John Doe" required></input>
+               <input type="email" placeholder="johndoe@gmail.com" required></input>
+               <textarea name="message" class="form-control" placeholder="Message" row="4" required> </textarea>
+               <br>
+               
+               <input  class="btn-branding m-3"type="submit" value="Send Message"></input>
+             </form> 
 
+        </div>
+          
+        <div class=col>   
+          <h3>Email</h3>
+            <p> 
+              <a href="mailto:christinaizquierdo@icloud.com" target="_blank"> christinaizquierdo@icloud.com
+            </a></p>
+          <h3>Instagram</h3>
+            <p> <a href="https://www.instagram.com/codewithizzy/" target="_blank"> @codewithizzy</a></p>
+      
+          </div>
+          </div>
+      </div>
     </div>
 
     <footer>
@@ -116,9 +141,11 @@
         <div class="d-flex justify-content-center">
           <a href="https://www.instagram.com/codewithizzy/" class="social-links">
         <i class="fab fa-instagram"></i></a>
-  
-          <a href="https://github.com/christina-izquierdo" class="social-links">
+      <a href="https://github.com/christina-izquierdo" class="social-links">
         <i class="fab fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/christina-izquierdo" class="social-links">
+       <i class="fab fa-linkedin"></i>
         </a>
         </div>
     </footer>
