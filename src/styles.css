@@ -32,6 +32,31 @@ img{
     border-radius: 4px;
     align-items: center;
 }
+footer{
+    margin: 20px 0px;
+
+}
+footer .email-link{
+    text-decoration:none;
+    color: black;
+    text-align: center;
+
+}
+footer .email-link:hover{
+    color: var(--branding-color);
+}
+.social-links{
+    margin: 0px 20px;
+    color: var(--branding-color);
+    font-size: 18px;
+    padding: 10px 14px;
+    border-radius: 50px;
+    transition:all 150ms ease-in-out;
+}
+.social-links:hover{
+    background-color: var(--accent-color);
+    color: white;
+}
 .description-words{
     color: var(--branding-color);
     font-weight: bold;
@@ -67,6 +92,9 @@ img{
 }
 .bg-light{
     background-color:#ffb344 !important;
+}
+.social-links{
+
 }
 @media(max-width: 960px){
     .project-description{
