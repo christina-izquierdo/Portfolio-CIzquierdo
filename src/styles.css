@@ -96,7 +96,9 @@ footer{
     background-color:#ffb344 !important;
 }
 #about-page{
-    margin: 100px 20px 100px 20px;
+    margin: 100px;
+    padding: 0px 20px;
+    text-align: center;
 }
 
 @media(max-width: 960px){
@@ -125,12 +127,12 @@ footer{
     }
     #about-page{
         margin: 10px;
-        padding:10px;
+        padding-left:10px;
        line-height: 30px;
         text-align: center;
     }
     .description-words{
-        padding: 5px 0px;
+        padding: 8px 0px;
         text-align: center;
     }
 }
