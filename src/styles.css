@@ -36,13 +36,14 @@ footer{
     margin: 20px 0px;
 
 }
-footer .email-link{
+
+.email-link{
     text-decoration:none;
     color: black;
     text-align: center;
 
 }
-footer .email-link:hover{
+.email-link:hover{
     color: var(--branding-color);
 }
 .social-links{
@@ -94,9 +95,7 @@ footer .email-link:hover{
 .bg-light{
     background-color:#ffb344 !important;
 }
-.social-links{
 
-}
 @media(max-width: 960px){
     .project-description{
         padding:0px;
@@ -108,5 +107,30 @@ footer .email-link:hover{
     }
     .btn-branding{
         margin: 0px;
+    }
+}
+@media(max-width: 400px){
+     .portrait{
+        width:300px;
+    }
+    .container{
+        display:grid;
+    }
+    #about-me{
+        font-size: 60px;
+
+    }
+    .about-page p{
+        margin:0px;
+        padding:0px;
+       line-height: 30px;
+        text-align: center;
+        
+        
+    }
+    .description-words{
+        padding: 0px;
+        display:block;
+        text-align: center;
     }
 }
