@@ -124,14 +124,13 @@ footer{
         text-align: center;
     }
     #about-page{
-        margin: 0px;
-        padding:0px;
+        margin: 10px;
+        padding:10px;
        line-height: 30px;
         text-align: center;
     }
     .description-words{
         padding: 5px 0px;
-        margin:0px;
         text-align: center;
     }
 }
