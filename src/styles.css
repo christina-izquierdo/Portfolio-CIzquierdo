@@ -95,6 +95,9 @@ footer{
 .bg-light{
     background-color:#ffb344 !important;
 }
+#about-page{
+    margin: 100px 20px 100px 20px;
+}
 
 @media(max-width: 960px){
     .project-description{
@@ -112,25 +115,23 @@ footer{
 @media(max-width: 400px){
      .portrait{
         width:300px;
+        padding: 0px;
     }
-    .container{
-        display:grid;
-    }
+   
     #about-me{
         font-size: 60px;
-
+        margin: 0px;
+        text-align: center;
     }
-    .about-page p{
-        margin:0px;
+    #about-page{
+        margin: 0px;
         padding:0px;
        line-height: 30px;
         text-align: center;
-        
-        
     }
     .description-words{
-        padding: 0px;
-        display:block;
+        padding: 5px 0px;
+        margin:0px;
         text-align: center;
     }
 }
